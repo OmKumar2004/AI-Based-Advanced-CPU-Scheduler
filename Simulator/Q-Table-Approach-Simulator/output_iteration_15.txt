@@ -1,0 +1,15 @@
+Current Process States:
+ID	Burst	Wait	Priority	CPU%	Memory%	Completed
+0	0		6		2			0.53	0.64	Yes
+1	0		12		4			0.59	0.95	Yes
+2	7		26		9			0.46	0.58	No
+3	0		0		9			0.60	0.88	Yes
+
+Q-Table:
+Process ID	Priority	CPU Utilization	Memory Usage	Waiting Time	Burst Time
+Process 0:  0.00		0.00			0.00			0.00			0.00	
+Process 1:  0.00		0.00			0.00			0.00			0.00	
+Process 2:  5.69		6.05			6.23			6.32			6.36	
+Process 3:  0.00		0.00			0.00			0.00			0.00	
+
+Will now execute Process ID: 2

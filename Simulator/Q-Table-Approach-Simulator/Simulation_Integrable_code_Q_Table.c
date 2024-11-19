@@ -174,6 +174,7 @@ void update_q_table() {
     }
 }
 
+
 float calculate_reward(Process p) {
     float w1 = 0.35, w2 = 0.2, w3 = 0.2, w4 = 0.15, w5 = 0.05;
 
