@@ -7,9 +7,9 @@ Our AI Scheduler is an RL-based scheduler.
 - Deep Q-based RL approach: This approach uses the power of Neural Networks and all these computations are done on it.
 
 
-There is also a GUI Interface for the q table-based scheduler where the user can input the number of processes and the other details of them and based on that user can see the changes in the ready queue, queue table, and process stats.
+GUI Interface for the q table-based scheduler where the user can input the number of processes and the other details of them and based on that user can see the changes in the ready queue, queue table, and process stats is also included in this repo.
 
-
+xv6: Implementation of q-table based RL approach is also done up to an extent with as of now taking waiting time and memory usage as the states.
 
 Further Work
-- Implementation of Q-table based scheduler in xv6.
+- Complete implementation of Q-table based scheduler in xv6.
