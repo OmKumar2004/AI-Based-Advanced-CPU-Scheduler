@@ -9,7 +9,7 @@ Our AI Scheduler is an RL-based scheduler.
 
 GUI Interface for the q table-based scheduler where the user can input the number of processes and the other details of them and based on that user can see the changes in the ready queue, queue table, and process stats is also included in this repo.
 
-xv6: Implementation of q-table based RL approach is also done up to an extent with as of now taking waiting time and memory usage as the states.
+xv6: Implementation of q-table based RL approach is also done up to an extent with as of now taking waiting time and memory usage as the states. It is done in Ubuntu 16.04 as in this the xv6 have access to 2 cores. In Ubuntu 22 xv6 uses only 1 core so can't get the real status of the process. For example, if I called ps then ps will become RUNNING and the process that should be running goes to RUNNABLE state. So, I will not be able to see which process is running as for seeing it I have to do ps. (There is an alternate that I can also cprintf the process whenever there is a change in the state of any process in the ready queue)
 
 Further Work
 - Complete implementation of Q-table based scheduler in xv6.
